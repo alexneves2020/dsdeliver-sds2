@@ -96,4 +96,9 @@ public class OrderDTO implements Serializable {
 		return products;
 	}
 
+	public void setProducts(List<ProductDTO> products) {
+		this.products = products;
+	}
+
+
 }
